@@ -6,7 +6,7 @@ import './Home.css';
 const Home = () => {
     return (
         <>
-            <div className='home-container d-flex align-items-center text-light my-4' >
+            <div className='home-container d-flex align-items-center text-light mt-4' >
                 <div className='container  text-start pb-5'>
                     <h1 className='title'>Learn From The Best.</h1>
                     <h1 className='title'>Learn  On Your Schedule.</h1>
