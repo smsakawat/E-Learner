@@ -7,7 +7,7 @@ const Category = ({ category }) => {
     const { img, subject, rating, title, description, payment, lessons, students } = category || {};
     return (
 
-        <div className=' col-md-6   category-card text-start '>
+        <div className=' col-md-6  py-5 category-card text-start'>
             <Card className='h-100'>
                 <div className="img-div"><Card.Img variant="top" src={img} /> <div className='overlay'></div></div>
 

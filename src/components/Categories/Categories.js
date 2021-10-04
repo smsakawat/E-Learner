@@ -25,8 +25,8 @@ const Categories = () => {
 
 
     return (
-        <div className="container">
-            <div className='row  py-5 my-4'>
+        <div className="container my-5">
+            <div className='row my-5 '>
                 {
                     selectedCategories.map(cg => <Category
                         key={cg.id}
