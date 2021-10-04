@@ -15,7 +15,7 @@ const AllCourses = () => {
         <>
             <div className='allcourses-header'>
                 <div className='text-light'><h2 className='fw-bold'>A broad selection of courses</h2>
-                    <h4 className='Find Your Suitable One'>Choose from 900 online video courses with new additions published every month</h4>
+                    <h4 className='Find Your Suitable One'>Choose from 12,000 online video courses with new additions published every month</h4>
                     <Form.Control className='w-50 mt-4' type="text" placeholder="What do you want to learn?" />
                 </div>
 

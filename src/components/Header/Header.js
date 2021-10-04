@@ -7,7 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <Navbar expand="lg" className='d-flex justify-conter-center align-items-center  navbar-container' variant='dark'>
+        <Navbar expand="lg" fixed='top' className='d-flex justify-conter-center align-items-center  navbar-container' variant='dark'>
             <Container className='py-2 appbar text-light'>
                 <Navbar.Brand className='logo'><NavLink to='/home' className='link'><i className="fab fa-edge-legacy"></i>-learner</NavLink></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
