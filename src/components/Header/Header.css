@@ -1,0 +1,15 @@
+.navbar-container {
+  background-color: #1c2a44;
+}
+.logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 10px;
+}
+.link:hover {
+  color: #8dd7e5;
+}

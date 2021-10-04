@@ -1,0 +1,12 @@
+.allcourses-header {
+  width: 100vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../images/all-courses.jpg");
+  background-position: center top;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

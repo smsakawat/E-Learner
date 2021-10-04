@@ -1,0 +1,51 @@
+.course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-body h5 {
+  font-weight: 700;
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.progress-text {
+  font-size: 10px;
+  opacity: 0.6;
+  letter-spacing: 1px;
+}
+
+.course-button {
+  background-color: #2a265f;
+  border: 0;
+  border-radius: 40px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 20px;
+
+  bottom: 30px;
+  right: 30px;
+  letter-spacing: 1px;
+}
+.single-course {
+  padding: 0 15px;
+  transition: transform 0.17s linear;
+}
+.single-course:hover {
+  transform: translateY(-12px);
+}
+.img-div {
+  overflow: hidden;
+  display: inline-block;
+}
+.course-img {
+  transition: transform 0.5s linear;
+}
+.course-img:hover {
+  transform: scale(1.18);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  filter: brightness(50%);
+}

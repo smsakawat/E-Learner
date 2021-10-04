@@ -1,0 +1,18 @@
+.error-container {
+  width: 100vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../../images/error.jpg");
+  background-position: center top;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.error-code {
+  font-size: 6em;
+  font-weight: 900;
+}
+.error-title {
+  font-weight: 700;
+  font-size: 2em;
+  margin: 30px 0;
+}

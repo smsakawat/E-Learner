@@ -1,0 +1,25 @@
+.footer-bg {
+  background-color: #1c2a44;
+}
+.services,
+.versities {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.services a {
+  margin: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+.versities a {
+  margin: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+.services a:hover {
+  color: #8dd7e5;
+}
+.versities a:hover {
+  color: #8dd7e5;
+}
