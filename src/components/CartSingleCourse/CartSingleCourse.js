@@ -2,8 +2,8 @@ import React from 'react';
 import Rating from 'react-rating';
 import './CartSingleCorse.css';
 
-const CartSingleCourse = ({ course }) => {
-    const { title, rating, payment, subject, lessons, students, img, description } = course;
+const CartSingleCourse = ({ course, handleRemove }) => {
+    const { title, rating, payment, subject, lessons, students, img, id } = course;
 
     return (
         <div className='row gx-3 p-3 single-cart'>
@@ -29,7 +29,7 @@ const CartSingleCourse = ({ course }) => {
 
 
                 <div className="d-flex align-items-center">
-                    <div className='footer-item pe-2'><button className='shoppingcart-btn'>Remove</button></div>
+                    <div className='footer-item pe-2'><button onClick={() => handleRemove(id)} className='shoppingcart-btn'>Remove</button></div>
                     <div className='footer-item pe-2'><p className="text-primary fw-bold mx-4  ">{payment}</p></div>
                     <div className='ms-4'> <a href=""> <i className="far fa-bookmark text-primary"></i></a></div>
                 </div>
