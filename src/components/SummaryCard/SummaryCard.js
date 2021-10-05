@@ -2,7 +2,7 @@ import React from 'react';
 import './SummaryCard.css';
 
 
-const SummaryCard = ({ cart }) => {
+const SummaryCard = ({ cart, handleBuy }) => {
 
     let courseTotal = 0;
     let grandTotal = 0;
@@ -41,6 +41,9 @@ const SummaryCard = ({ cart }) => {
             <div className=' text-dark d-flex justify-content-between align-items-center'>
                 <h4 className='fw-bold'>Total:</h4>
                 <h4 className='fw-bold'>${grandTotal}</h4>
+            </div>
+            <div className='d-flex justify-content-center align-items-center mt-3'>
+                <button className='btn btn-primary ' onClick={handleBuy}>Buy Now</button>
             </div>
         </div>
     )

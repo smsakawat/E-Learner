@@ -2,13 +2,20 @@ import React from 'react';
 import CartSingleCourse from '../CartSingleCourse/CartSingleCourse';
 import useAllCourses from '../hooks/useAllCourses';
 import useCart from '../hooks/useCart';
-import { deleteFromLocal } from '../LocalDb/LocalDb';
+import { clearCourses, deleteFromLocal } from '../LocalDb/LocalDb';
 import SummaryCard from '../SummaryCard/SummaryCard';
 import './Cart.css';
 
 const Cart = () => {
     const allCourses = useAllCourses();
     const [cart, setCart] = useCart(allCourses);
+
+
+
+    const handleBuy = () => {
+        setCart([])
+        clearCourses();
+    }
 
     const handleRemove = (id) => {
         const remainingCourses = cart.filter(course => course.id !== id);
@@ -33,6 +40,7 @@ const Cart = () => {
 
                 <SummaryCard
                     cart={cart}
+                    handleBuy={handleBuy}
                 ></SummaryCard>
             </div>
         </div>
