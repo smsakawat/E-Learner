@@ -57,7 +57,7 @@
   },
   {
     "id": "dlfld3",
-    "title": "Java In Dept: Become a complete Java Engineer",
+    "title": "Java In Depth: Become a complete Java Engineer",
     "rating": 4.5,
     "payment": "230",
     "subject": "Programming",
@@ -88,17 +88,7 @@
     "students": "290",
     "img": "https://img-c.udemycdn.com/course/240x135/1864390_96a5_2.jpg"
   },
-  {
-    "id": "ehtnw4",
-    "title": "Photoshop CC 2019 MasterClass",
-    "rating": 4.4,
-    "payment": "125",
-    "subject": "Design",
-    "description": "New, Photoshop tutorials added every month. Your Photoshop learning never stops!Photoshop - Learn how to edit like a pro. You'll learn how to use ALL retouching tools for awesome photos.",
-    "lessons": "40",
-    "students": "154",
-    "img": "https://a6e8z9v6.stackpathcdn.com/kingster/homepages/onlineschool/wp-content/uploads/sites/3/2020/06/iStock-1063913824-400x245.jpg"
-  },
+
   {
     "id": "hfgdh6",
     "title": "Essential Business Analysis",
