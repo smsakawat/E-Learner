@@ -77,3 +77,17 @@ code {
 .shoppingcart-btn:hover {
   transform: scale(0.98);
 }
+.submit-btn {
+  padding: 12px 20px;
+  display: inline-block;
+  margin: 5px;
+  background-color: #1c2a44;
+  color: #fff;
+  transition: transform 0.2s ease-out;
+  border: 1px solid #1c2a44;
+  border-radius: 4px;
+  width: 375px;
+}
+.submit-btn:hover {
+  transform: scale(0.98);
+}

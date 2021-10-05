@@ -6,14 +6,17 @@ const SummaryCard = ({ cart }) => {
 
     let courseTotal = 0;
     let grandTotal = 0;
-    const handlingFee = 20;
+    let handlingFee = 0;
 
     for (const course of cart) {
         const courseFee = parseInt(course.payment);
         courseTotal = courseTotal + courseFee;
+        handlingFee = courseTotal > 0 ? 20 : 0;
         grandTotal = courseTotal + handlingFee;
 
     }
+
+
 
     return (
         <div className='total-container p-4 text-start'>

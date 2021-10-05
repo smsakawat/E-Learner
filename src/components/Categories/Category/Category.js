@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 import Rating from 'react-rating';
 import { addToDb } from '../../LocalDb/LocalDb';
 import './Category.css';
@@ -11,10 +12,8 @@ const Category = ({ category }) => {
     }
     return (
 
-        <div className='row gx-3 p-4 category-card'>
-            <div className='col-md-3'>
-                <img src={img} className='img-fluid' alt="" />
-            </div>
+        <div className='row gx-3 pt-3 px-2 category-card my-3 pb-2'>
+            <div className="category-img-div col-md-3 "><Card.Img src={img} className=' img-fluid category-img' /> </div>
             <div className="course-details text-start col-md-9">
                 <h6 className="fw-bold">{title}</h6>
                 <div className='d-flex justify-content-between align-items-center'>

@@ -1,5 +1,21 @@
 .category-card {
-  border: 1px solid rgb(160, 159, 159);
-  border-radius: 6px;
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 4px;
   margin: 5px;
+}
+
+.category-img-div {
+  overflow: hidden;
+  display: inline-block;
+}
+.category-img {
+  height: 14rem;
+  width: 265px;
+  transition: transform 0.5s linear;
+}
+
+.category-img:hover {
+  transform: scale(1.15);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  filter: brightness(50%);
 }

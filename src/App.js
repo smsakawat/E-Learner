@@ -9,6 +9,7 @@ import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Signup from './components/Signup/Signup';
 
 
 
@@ -26,6 +27,9 @@ function App() {
         </Route>
         <Route exact path='/categories/home'>
           <Home></Home>
+        </Route>
+        <Route exact path='/signup'>
+          <Signup></Signup>
         </Route>
         <Route exact path='/about'>
           <About></About>

@@ -56,6 +56,17 @@
     "img": "https://a6e8z9v6.stackpathcdn.com/kingster/homepages/onlineschool/wp-content/uploads/sites/3/2020/06/iStock-996082438-400x245.jpg"
   },
   {
+    "id": "dlfld3",
+    "title": "Java In Dept: Become a complete Java Engineer",
+    "rating": 4.5,
+    "payment": "230",
+    "subject": "Programming",
+    "description": "Gain in-depth understanding of core & advanced features of Java including JVM internals.Set firm foundation in Java for the rest of your career. That's a promise!",
+    "lessons": "22",
+    "students": "215",
+    "img": "https://img-c.udemycdn.com/course/240x135/358540_d06b_11.jpg"
+  },
+  {
     "id": "gfhkjd4",
     "title": "Introduction To Architecture",
     "rating": 4.4,
@@ -67,11 +78,22 @@
     "img": "https://a6e8z9v6.stackpathcdn.com/kingster/homepages/onlineschool/wp-content/uploads/sites/3/2020/06/shutterstock_393673021-400x245.jpg"
   },
   {
+    "id": "oergj3",
+    "title": "Graphic Design Masterclass",
+    "rating": 4.4,
+    "payment": "155",
+    "subject": "Design",
+    "description": " Have a deep understanding of typography, color theory, photos, layout, blocking and other design theory and skills.Create logos and branding packages for potential clients. ",
+    "lessons": "25",
+    "students": "290",
+    "img": "https://img-c.udemycdn.com/course/240x135/1864390_96a5_2.jpg"
+  },
+  {
     "id": "ehtnw4",
     "title": "Photoshop CC 2019 MasterClass",
     "rating": 4.4,
     "payment": "125",
-    "subject": "Graphic",
+    "subject": "Design",
     "description": "New, Photoshop tutorials added every month. Your Photoshop learning never stops!Photoshop - Learn how to edit like a pro. You'll learn how to use ALL retouching tools for awesome photos.",
     "lessons": "40",
     "students": "154",
@@ -87,6 +109,28 @@
     "lessons": "32",
     "students": "215",
     "img": "https://a6e8z9v6.stackpathcdn.com/kingster/homepages/onlineschool/wp-content/uploads/sites/3/2020/06/iStock-820609122-400x245.jpg"
+  },
+  {
+    "id": "nrwh34",
+    "title": "Accounting From Beginner To Advance",
+    "rating": 4.3,
+    "payment": "135",
+    "subject": "Accounting",
+    "description": " Learn and identify specific items on the Financial Statements (Income Statement, Statement of Retained Earnings, Balance Sheet).Learn about Debits and Credits.",
+    "lessons": "20",
+    "students": "178",
+    "img": "https://img-c.udemycdn.com/course/240x135/648826_f0e5_4.jpg"
+  },
+  {
+    "id": "gnsdnn3",
+    "title": "The Corporate Finance Course 2021",
+    "rating": 4.3,
+    "payment": "160",
+    "subject": "Finance",
+    "description": " Prepare for a corporate finance careers.Acquire an understanding of corporate governance, capital budgeting, cost of capital, measures of leverage, and working capital management.",
+    "lessons": "30",
+    "students": "226",
+    "img": "https://img-c.udemycdn.com/course/240x135/2652470_a73d.jpg"
   },
   {
     "id": "jsldjls4",
