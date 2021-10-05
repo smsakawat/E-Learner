@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import AllCourses from './components/AllCourses/AllCourses';
+import Cart from './components/Cart/Cart';
 import Categories from './components/Categories/Categories';
 import Error from './components/Error/Error';
 import Footer from './components/Footer/Footer';
@@ -32,9 +33,13 @@ function App() {
         <Route exact path='/allcourses'>
           <AllCourses></AllCourses>
         </Route>
+        <Route exact path='/cart'>
+          <Cart></Cart>
+        </Route>
         <Route exact path='/categories/:category'>
           <Categories></Categories>
         </Route>
+
         <Route path='*'>
           <Error></Error>
         </Route>

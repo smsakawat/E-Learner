@@ -11,35 +11,8 @@
   font-size: 4em;
   font-weight: 700;
 }
-/* button styles */
-.button {
-  margin-top: 35px;
-  padding: 5px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #1c2a44;
-  width: 160px;
-  border-radius: 4px;
-}
-.button .signup-btn {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 18px;
-  text-decoration: none;
-  overflow: hidden;
-  transition: 0.2s;
-}
-.button .signup-btn:hover {
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-}
+
 .home-link {
-  font-size: 1.3rem;
-  border-bottom: 1px solid #8dd7e5;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #fff;
 }

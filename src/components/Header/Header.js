@@ -5,7 +5,12 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
+
 const Header = () => {
+
+    // const allCourses = useAllCourses();
+    // const [cart, setCart] = useCart(allCourses);
+
     return (
         <Navbar expand="lg" fixed='top' className='d-flex justify-conter-center align-items-center  navbar-container' variant='dark'>
             <Container className='py-2 appbar text-light'>
@@ -20,6 +25,7 @@ const Header = () => {
                         <Nav.Link ><NavLink to='./home' className='link'>HOME</NavLink></Nav.Link>
                         <Nav.Link ><NavLink to='/about' className='link'>ABOUT</NavLink></Nav.Link>
                         <Nav.Link><NavLink to='/allcourses' className='link'>COURSES</NavLink></Nav.Link>
+                        <Nav.Link><NavLink to='/cart' className='link'><i className="fas fa-shopping-cart text-light "></i><span className='secondary-color ms-1'></span></NavLink></Nav.Link>
                         <NavDropdown title="Categories" id="navbarScrollingDropdown">
                             <NavDropdown.Item ><NavLink className='link text-dark' to='/categories/programming'>Programming</NavLink></NavDropdown.Item>
 

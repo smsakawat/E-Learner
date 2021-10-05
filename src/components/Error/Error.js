@@ -11,7 +11,7 @@ const Error = () => {
                 <p className='leadv secondary-color'>Sorry we couldn't find the page you are looking for.</p>
 
                 <Link to='/home'>
-                    <button className='btn btn-success'><i class="fas fa-arrow-left me-2 text-light"></i>Back to Home</button>
+                    <button className='btn btn-success'><i className="fas fa-arrow-left me-2 text-light"></i>Back to Home</button>
                 </Link>
             </div>
         </div>

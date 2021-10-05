@@ -15,7 +15,7 @@ const Home = () => {
                     <div className='d-flex align-items-center'>
                         <div className="button my-4 me-4"><a href='#' type='button' className='signup-btn'>Sign Up</a>
                         </div>
-                        <Link to='/about' className='link home-link ms-5'>How it works<i class="fas fa-arrow-right secondary-color ms-2"></i></Link>
+                        <Link to='/about' className='link home-link ms-5'>HOW IT WORKS<i className="fas fa-arrow-right secondary-color ms-2"></i></Link>
                     </div>
                 </div>
             </div >

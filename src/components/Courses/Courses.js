@@ -12,12 +12,14 @@ const Courses = () => {
             .then(data => setCourses(data))
     }, [])
 
+
+
     return (
         <div className='courses-container  py-5'>
             <div className="container py-3">
                 <div className=" py-3 d-flex justify-content-between align-items-center">
                     <h1>What do you want to learn today?</h1>
-                    <Link to='/allcourses' className='course-link'>View All Courses<i className="bi bi-arrow-right-short ms-2"></i> </Link>
+                    <Link to='/allcourses' className='course-link fw-bold'>View All Courses<i className="fas fa-chevron-right ms-2 fw-bold"></i> </Link>
                 </div>
                 <div className='row py-5 g-4 '>
                     {
