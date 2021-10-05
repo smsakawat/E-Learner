@@ -1,3 +1,5 @@
 .category-card {
-  width: 570px;
+  border: 1px solid rgb(160, 159, 159);
+  border-radius: 6px;
+  margin: 5px;
 }

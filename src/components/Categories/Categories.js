@@ -26,7 +26,7 @@ const Categories = () => {
 
     return (
         <div className="container my-5">
-            <div className='row my-5 '>
+            <div className='row my-5  py-5'>
                 {
                     selectedCategories.map(cg => <Category
                         key={cg.id}

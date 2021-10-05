@@ -27,7 +27,7 @@ const Course = ({ course }) => {
                 </div>
 
                 <Card.Footer className=' px-4 d-flex justify-content-between align-items-center'>
-                    <h5 className='text-primary fw-bold' >{payment}</h5>
+                    <h5 className='text-primary fw-bold' >${payment}</h5>
                     <a href=""> <i className="far fa-bookmark text-primary"></i></a>
                 </Card.Footer>
             </Card>
