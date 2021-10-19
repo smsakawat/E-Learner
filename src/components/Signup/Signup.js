@@ -1,40 +1,37 @@
 import React from 'react';
-import { Col, Form, Row } from 'react-bootstrap';
 import './Signup.css';
 
 const Signup = () => {
     return (
-        <div className='d-flex justify-content-center align-items-center my-5 py-5'>
-            <div className='signup-form text-start my-4'>
-                <Form>
-                    <h4 className='fw-bold py-2 mb-3'>Register</h4>
-                    <Row className='my-3'>
-                        <Col>
-                            <Form.Control placeholder="First name" />
-                        </Col>
-                        <Col>
-                            <Form.Control placeholder="Last name" />
-                        </Col>
-                    </Row>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label>Your email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                        <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                        </Form.Text>
-                    </Form.Group>
+        <div className='  form-container mt-5 pt-5 text-center text-light'>
 
-                    <Form.Group className="mb-3" controlId="formBasicPassword">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="password" placeholder="Password" />
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                        <Form.Check type="checkbox" label="Check me out" />
-                    </Form.Group>
-                    <div className="d-flex justify-content-center align-items-center">
-                        <button className='submit-btn'>Register</button>
+            <h3>Get started with <i className="fab fa-edge-legacy fs-3 mt-2 mb-1 "></i>-learner today </h3>
+            <div className='mt-3  d-flex justify-content-center align-items-center'>
+
+                <div>
+                    <div className='row  signup-container'>
+                        <div className='col-md-4 social-container py-5 px-5'>
+                            <h2 className=' text-start'><i className="fab fa-edge-legacy mt-5 mb-3"></i>-learner</h2>
+                            <p className='text-start' >login using social media to get quick access</p>
+                            <div className='text-start mb-3'>
+                                <button className='btn btn-primary active my-2'><i className="fab fa-facebook-f me-1"></i><small>Signin with facebook</small></button>
+                                <button className='btn btn-info  my-2 text-light'><i className="fab fa-twitter text-light me-1 text-light"></i><small>Signin with twitter</small></button>
+                                <button className='btn btn-danger my-2'><i className="fab fa-google-plus-square text-light me-1"></i><small>Signin with google</small></button>
+                            </div>
+
+                        </div>
+                        <div className='col-md-8 text-center p-4 input-container'>
+                            <h2 className='primary-color my-4 fw-bolder '>Sign up for free!</h2>
+                            <div><input className='input-field' type="text" placeholder='Email' /></div>
+                            <div><input className='input-field' type="text" name="name" placeholder='Full Name' /></div>
+                            <div> <input className='input-field' type="password" id="password" placeholder='password' /></div>
+
+
+                            <div className='d-flex justify-content-center' ><button className='submit-btn'>Sign up with email</button></div>
+                            <div className='my-2'> <small ><a href="">Already have an account?</a></small></div>
+                        </div>
                     </div>
-                </Form>
+                </div>
             </div>
         </div>
     )

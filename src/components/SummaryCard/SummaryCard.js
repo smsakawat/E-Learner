@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { RemoveContext } from '../../App';
 import './SummaryCard.css';
 
 
-const SummaryCard = ({ cart, handleBuy }) => {
+const SummaryCard = ({ cart }) => {
+
+    const [a, handleBuy] = useContext(RemoveContext);
 
     let courseTotal = 0;
     let grandTotal = 0;
@@ -42,7 +45,7 @@ const SummaryCard = ({ cart, handleBuy }) => {
                 <h4 className='fw-bold'>Total:</h4>
                 <h4 className='fw-bold'>${grandTotal}</h4>
             </div>
-            <div className='d-flex justify-content-center align-items-center mt-3'>
+            <div className=' d-grid mt-1'>
                 <button className='btn btn-primary ' onClick={handleBuy}>Buy Now</button>
             </div>
         </div>

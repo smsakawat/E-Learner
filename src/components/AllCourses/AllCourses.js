@@ -3,7 +3,7 @@ import { Form } from 'react-bootstrap';
 import DetailedSingleCourse from '../DetailedSingleCourse/DetailedSingleCourse';
 import './AllCourses.css';
 
-const AllCourses = () => {
+const AllCourses = ({ addToCart }) => {
     const [allCourses, setAllCourses] = useState([]);
 
     useEffect(() => {
@@ -20,14 +20,17 @@ const AllCourses = () => {
                 </div>
 
             </div>
-            <div className="container">
-                <div className=" row my-5 gy-5 ">
-                    {
-                        allCourses.map(course => <DetailedSingleCourse
-                            key={course.id}
-                            course={course}
-                        ></DetailedSingleCourse>)
-                    }
+            <div className="allcourses-container">
+                <div className="container">
+                    <div className=" row my-5 gy-5 ">
+                        {
+                            allCourses.map(course => <DetailedSingleCourse
+                                key={course.id}
+                                addToCart={addToCart}
+                                course={course}
+                            ></DetailedSingleCourse>)
+                        }
+                    </div>
                 </div>
             </div>
         </>

@@ -3,7 +3,7 @@ import { useParams } from 'react-router';
 import Category from './Category/Category';
 
 
-const Categories = () => {
+const Categories = ({ addToCart }) => {
     const { category } = useParams();
 
 
@@ -31,6 +31,7 @@ const Categories = () => {
                     selectedCategories.map(cg => <Category
                         key={cg.id}
                         category={cg}
+                        addToCart={addToCart}
                     ></Category>)
                 }
 

@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Rating from 'react-rating';
+import { RemoveContext } from '../../App';
 import './CartSingleCorse.css';
 
-const CartSingleCourse = ({ course, handleRemove }) => {
+const CartSingleCourse = ({ course }) => {
     const { title, rating, payment, subject, lessons, students, img, id } = course;
+
+    const [handleRemove] = useContext(RemoveContext);
+
 
     return (
         <div className='row gx-3 p-3 single-cart'>

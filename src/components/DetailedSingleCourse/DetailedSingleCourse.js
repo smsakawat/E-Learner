@@ -1,29 +1,13 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Rating from 'react-rating';
-import useAllCourses from '../hooks/useAllCourses';
-import useCart from '../hooks/useCart';
-import { addToDb } from '../LocalDb/LocalDb';
 import './DetailedSingleCourse.css';
 
-const DetailedSingleCourse = ({ course }) => {
+const DetailedSingleCourse = ({ course, addToCart }) => {
     const { img, rating, subject, title, payment, description, lessons, students, id } = course;
-    // console.log(id)
-
-    const allCourses = useAllCourses();
-    const [cart, setCart] = useCart(allCourses);
-
-    const newCart = [...cart];
-    // console.log(newCart.length)
-    const addToCart = (id) => {
-        addToDb(id);
-
-    }
-
-
-
 
     return (
+
 
         <div className=' col-md-3   text-start course-card '>
             <Card className='h-100'>
@@ -60,6 +44,7 @@ const DetailedSingleCourse = ({ course }) => {
                 </Card.Footer>
             </Card>
         </div>
+
 
 
     )

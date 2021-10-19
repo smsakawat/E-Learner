@@ -83,10 +83,10 @@ code {
   margin: 5px;
   background-color: #1c2a44;
   color: #fff;
-  transition: transform 0.2s ease-out;
+  transition: transform 0.1s;
   border: 1px solid #1c2a44;
-  border-radius: 4px;
-  width: 375px;
+  border-radius: 6px;
+  width: 345px;
 }
 .submit-btn:hover {
   transform: scale(0.98);

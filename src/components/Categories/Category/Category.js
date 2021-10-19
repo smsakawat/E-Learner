@@ -1,15 +1,12 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Rating from 'react-rating';
-import { addToDb } from '../../LocalDb/LocalDb';
 import './Category.css';
 
-const Category = ({ category }) => {
+const Category = ({ category, addToCart }) => {
     const { img, subject, rating, title, description, payment, lessons, students, id } = category || {};
 
-    const handleAddToCart = (id) => {
-        addToDb(id);
-    }
+
     return (
 
         <div className='row gx-3 pt-3 px-2 category-card my-3 pb-2'>
@@ -32,7 +29,7 @@ const Category = ({ category }) => {
                 /></p>
                 <p className='text-secondary'>{description}</p>
                 <div className="d-flex align-items-center">
-                    <div className='footer-item pe-3'><button onClick={() => handleAddToCart(id)} className='cart-btn'><i className="fas fa-cart-plus me-2"></i>Add To Cart</button></div>
+                    <div className='footer-item pe-3'><button onClick={() => addToCart(id)} className='cart-btn'><i className="fas fa-cart-plus me-2"></i>Add To Cart</button></div>
                     <div className='footer-item pe-3 mt-1'><p className="text-primary fw-bold mx-4  ">${payment}</p></div>
                     <div className='ms-4'> <a href=""> <i className="far fa-bookmark text-primary"></i></a></div>
                 </div>
